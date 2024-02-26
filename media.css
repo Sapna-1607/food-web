@@ -1,0 +1,41 @@
+.box1{
+    background-color: violet;
+    color: white;
+    padding: 10px;
+}
+.box2{
+    background-color: rgba(0, 128, 0, 0.574);
+    color:black;
+    padding: 10px;
+    display: none;
+}
+.box3{
+    background-color:maroon;
+    color:black;
+    padding: 10px;
+    display: none;
+}
+@media screen and (max-width: 545px) {
+    .box2{
+      display: block;
+    }
+    .box1{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .box2{
+      display: none;
+    }
+    .box1{
+        display: none;
+    }
+    .box3{
+        display: block
+    }
+}
+
